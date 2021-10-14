@@ -1,12 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import ReactDOM from "react-dom";
+import { Header, MessageList } from './components';
+import './global.css';
 
-// ========================================
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <div>
+        <Header />
+        <MessageList />
+    </div>,
+    document.getElementById('root')
 );
