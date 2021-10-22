@@ -166,3 +166,19 @@ html {
     linear-gradient(90deg, #02141a 30%, rgba(0, 0, 0, 0) 31%);
   background-color: #2b5278;
 }
+
+.icon-add-chat {
+    width: 28px;
+    height: 28px;
+    fill: #7E7E7E;
+    fill-opacity: var(--header-opacity);
+    transition: 0.25s;
+    margin-left: 10px;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+
+.icon-add-chat:hover {
+    fill: #FFFFFF;
+    fill-opacity: 1.0;
+}
