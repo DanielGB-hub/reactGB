@@ -4,7 +4,6 @@ import { createStyles, makeStyles } from "@mui/styles";
 import { Message } from "./message";
 import styles from "./message-list.module.css";
 
-
 const useStyles = makeStyles((ctx) => {
   return createStyles({
     input: {
@@ -15,7 +14,12 @@ const useStyles = makeStyles((ctx) => {
   });
 });
 
-export const MessageList = ({ messages, sendMessage, value, handleChangeValue }) => {
+export const MessageList = ({
+    messages,
+    sendMessage,
+    value,
+    handleChangeValue,
+}) => {
   const s = useStyles();
 
 
